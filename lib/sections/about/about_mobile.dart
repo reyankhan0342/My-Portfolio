@@ -29,8 +29,9 @@ class AboutMobile extends StatelessWidget {
           Space.y1!,
           const CircleAvatar(
               radius: 45,
-              backgroundImage: AssetImage(StaticUtils.mobilePhoto,)
-          ),
+              backgroundImage: AssetImage(
+                StaticUtils.mobilePhoto,
+              )),
           SizedBox(
             height: height * 0.03,
           ),
@@ -74,7 +75,7 @@ class AboutMobile extends StatelessWidget {
             ),
           ),
           Space.y!,
-          Row(
+          Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: kTools
                 .map(
@@ -92,11 +93,11 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "Yasir Khan",
+            information: "Luqman Ali",
           ),
           const AboutMeData(
             data: "Email",
-            information: "mryasirkhan775@gmail.com",
+            information: "sashaandoo0342@gmail.com",
           ),
           Space.y!,
           OutlinedButton(

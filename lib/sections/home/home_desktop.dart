@@ -27,7 +27,7 @@ class HomeDesktop extends StatelessWidget {
                 delay: const Duration(seconds: 1),
                 duration: const Duration(milliseconds: 800),
                 child: Image.asset(
-                  StaticUtils.blackWhitePhoto,
+                  StaticUtils.blackWhitePhoto3,
                   height: size.width < 1200
                       ? size.height * 0.8
                       : size.height * 0.85,

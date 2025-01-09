@@ -30,9 +30,13 @@ class AboutDesktop extends StatelessWidget {
           Row(
             children: [
               Expanded(
-                child: Image.asset(
-                  StaticUtils.coloredPhoto,
-                  height: height * 0.6,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(20),
+                  child: Image.asset(
+                    StaticUtils.coloredPhoto,
+                    height: height * 0.35,
+                    fit: BoxFit.contain,
+                  ),
                 ),
               ),
               Expanded(
@@ -79,7 +83,9 @@ class AboutDesktop extends StatelessWidget {
                         ),
                       ),
                       Space.y!,
-                      Row(
+                      Wrap(
+                        spacing: 10.0,
+                        runSpacing: 10.0,
                         children: kTools
                             .map((e) => ToolTechWidget(
                                   techName: e,
@@ -98,7 +104,7 @@ class AboutDesktop extends StatelessWidget {
                             children: [
                               AboutMeData(
                                 data: "Name",
-                                information: "Yasir Khan",
+                                information: "Luqman Ali",
                               ),
                               AboutMeData(
                                 data: "From",
@@ -112,7 +118,7 @@ class AboutDesktop extends StatelessWidget {
                             children: [
                               AboutMeData(
                                 data: "Email",
-                                information: "mryasirkhan775@gmail.com",
+                                information: "sashaandoo0342@gmail.com",
                               ),
                             ],
                           ),

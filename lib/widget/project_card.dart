@@ -59,8 +59,8 @@ class ProjectCardState extends State<ProjectCard> {
       child: Container(
         margin: Space.h,
         padding: Space.all(),
-        width: AppDimensions.normalize(150),
-        height: AppDimensions.normalize(90),
+        width: AppDimensions.normalize(100),
+        height: AppDimensions.normalize(150),
         decoration: BoxDecoration(
           color: appProvider.isDark ? Colors.grey[900] : Colors.white,
           borderRadius: BorderRadius.circular(10),
@@ -90,14 +90,14 @@ class ProjectCardState extends State<ProjectCard> {
                     ? (width > 1135 || width < 950)
                         ? Image.asset(
                             widget.projectIcon!,
-                            height: height * 0.05,
+                            height: height * 0.2,
                           )
                         : Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Image.asset(
                                 widget.projectIcon!,
-                                height: height * 0.03,
+                                height: height * 0.2,
                               ),
                               SizedBox(
                                 width: width * 0.01,

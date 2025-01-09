@@ -11,8 +11,9 @@ class StaticUtils {
 
   // photos
   static const String mobilePhoto = 'assets/photos/luqman.png';
-  static const String coloredPhoto = 'assets/photos/luqman.png';
-  static const String blackWhitePhoto = 'assets/photos/1.png';
+  static const String coloredPhoto = 'assets/photos/1.png';
+  static const String coloredPhoto2 = 'assets/photos/3.jpg';
+  static const String blackWhitePhoto3 = 'assets/photos/3.jpg';
 
   // work
   static const String dsc = 'assets/work/dsc.png';
@@ -28,6 +29,11 @@ class StaticUtils {
   static const String openSource = 'assets/services/open.png';
   static const String openSourceBlack = 'assets/services/open_b.png';
 
+  static const String android = 'assets/services/android_icon.png';
+  static const String desktop = 'assets/services/desktop_icon.png';
+  static const String flutter_icon = 'assets/services/flutter_icon.png';
+  static const String github = 'assets/services/github_icon.png';
+
   static const List<String> socialIconURL = [
     "https://img.icons8.com/metro/308/ffffff/linkedin.png",
     "https://img.icons8.com/material-rounded/384/ffffff/github.png",
@@ -39,7 +45,7 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1ia2OUWYSEy3-L6w7Y1pWQAD0eM-crBk6/view?usp=drive_link';
+      'https://drive.google.com/file/d/1rZA3JBlHQDE7qyE6Fi0gDSypT6ITbV3r/view?usp=sharing';
 
   static const String gitHub = 'https://github.com/reyankhan0342';
 }

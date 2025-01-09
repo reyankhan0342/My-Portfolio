@@ -2,22 +2,23 @@ import 'package:folio/utils/utils.dart';
 
 class ServicesUtils {
   static const List<String> servicesIcons = [
-    StaticUtils.appDev,
-    StaticUtils.rapid,
-    StaticUtils.openSource,
+    StaticUtils.android,
+    StaticUtils.flutter_icon,
+    StaticUtils.desktop,
+    StaticUtils.github,
   ];
 
   static const List<String> servicesTitles = [
-    "Mobile App Development",
-    "Rapid Prototyping",
+    "Android App Development",
+    "Flutter Developer",
+    "Android, iOS, and Desktop Developer",
     "Open Source - GitHub",
   ];
 
   static const List<String> servicesDescription = [
-    "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-    "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-    "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-    "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-    "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
+    "Develop high-quality Android applications using Flutter, ensuring exceptional user experience and performance. Key features include custom splash screens, Firebase integration, REST APIs, maps integration, and ongoing support.",
+    "Expert in creating cross-platform applications with Flutter that run seamlessly on Android, iOS, and desktop. Offering responsive designs, smooth animations, and optimal performance with a single codebase.",
+    "Craft versatile cross-platform applications for Android, iOS, and desktop. Delivering consistent design and performance across devices with quick deployment and updates.",
+    "Contribute to and create impactful open-source projects with well-documented repositories, professional README.md files, and engaging header images to foster community collaboration.",
   ];
 }
