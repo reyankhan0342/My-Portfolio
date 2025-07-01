@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="myportfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Luqman Ali
+  </title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    var flutter_service_worker_version = null;
+  </script>
+  <!-- This script adds the Flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <!-- Flutter app container -->
+  <div id="flutter_app"></div>
+
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+    _flutter.loader.load({
+  serviceWorker: {
+    serviceWorkerVersion: serviceWorkerVersion,
+  },
+  onAppInitialized: async function(engineInitializer) {
+    let appRunner = await engineInitializer.initializeEngine({
+      hostElement: document.querySelector("#flutter_app"),
+      renderer: "canvaskit"
+    });
+    appRunner.runApp();
+  }
+});
+
+    });
+  </script>
+
+  <!-- Firebase Configuration -->
+  <script type="module">
+    // Import the Firebase SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+
+    // Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDvUwkP2XvHEuPdmrVPtwPJPJwTfOzHZLc",
+      authDomain: "my-portfolio-e3eaa.firebaseapp.com",
+      projectId: "my-portfolio-e3eaa",
+      storageBucket: "my-portfolio-e3eaa.appspot.com",
+      messagingSenderId: "501170346182",
+      appId: "1:501170346182:web:a352c6df03e47e61a09fc7",
+      measurementId: "G-XWPJ4WLVBY"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2330050811');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

@@ -53,13 +53,13 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDccVsCf9RLmcIeEEpuFKtoGxSCYIIkaAE',
-    appId: '1:448892814530:web:ffa108976b662f3e52a75b',
-    messagingSenderId: '448892814530',
-    projectId: 'portfolio-15ad4',
-    authDomain: 'portfolio-15ad4.firebaseapp.com',
-    storageBucket: 'portfolio-15ad4.firebasestorage.app',
-    measurementId: 'G-HZNXMPFLJJ',
+    apiKey: 'AIzaSyDt3Tqmma7FZ7knc6odrHapB24LF4UUogs',
+    appId: '1:500294616494:web:86bf50eb300b654036743f',
+    messagingSenderId: '500294616494',
+    projectId: 'ai-voice-calling',
+    authDomain: 'ai-voice-calling.firebaseapp.com',
+    storageBucket: 'ai-voice-calling.firebasestorage.app',
+    measurementId: 'G-QXW7F1ZMYV',
   );
 
 }
